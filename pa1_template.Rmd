@@ -1,6 +1,17 @@
+---
+title: "Course Project 1 - Reproducible Research"
+author: "Abina Mariam George"
+date: "August 22, 2020"
+output: html_document
+---
+install.packages("knitr")
+library(knitr)
+knitr::opts_chunk$set(warning=FALSE)
+knit2html("pa1_template.Rmd")
 ##Step 1
 ##Code for reading in the dataset and/or processing the data
 ```{r, echo = TRUE}
+
 setwd("C:/Users/abinamg/Desktop/abinamg/R")
 activity<-read.csv("activity.csv")
 ```
